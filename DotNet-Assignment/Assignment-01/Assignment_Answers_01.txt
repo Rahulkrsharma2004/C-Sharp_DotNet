@@ -1,0 +1,56 @@
+1. What does "relational" mean in the context of a relational database management system (RDBMS)?
+Ans => It means data is stored in related tables where each table represents a specific entity, like "Customers" or "Orders." These tables connect through common keys.
+
+
+2. Explain the role of keys in relational databases. What is the difference between a primary key and a foreign key?
+Ans => Keys uniquely identify rows in tables. A primary key uniquely identifies each record, while a foreign key links records between tables.
+
+
+3. What are the four ACID properties in databases?
+Ans => ** Atomicity: A transaction either fully completes or does not happen at all (like a bank transfer).
+** Consistency: Data remains valid before and after a transaction.
+** Isolation: Transactions occur independently (no interference).
+** Durability: Data remains safe after a transaction, even during system failures.
+
+
+
+4. What are the key differences between SQL and NoSQL databases? When would you prefer to use each?
+Ans => SQL: Structured, relational databases (use for banking apps).
+NoSQL: Flexible, unstructured data (use for social media apps).
+
+
+5. Describe the purpose of MySQL Workbench. What are its primary features?
+Ans => It's a tool for managing MySQL databases, offering query execution, schema design, and data modeling features.
+
+
+
+6. What is normalization in databases? Why is it important, and what are the different normal forms?
+Ans => Normalization organizes data to reduce duplication. It's important for efficiency. Normal forms include 1NF (no duplicate rows), 2NF (depend on the primary key), and 3NF (no transitive dependencies).
+
+
+7. What are the main advantages of using NoSQL databases for modern applications? Provide examples of use cases.
+Ans => NoSQL handles large, unstructured data, making it great for social media, IoT, and e-commerce platforms.
+
+
+
+8. Explain the concept of a "transaction" in a relational database. Why is it important to ensure transactions follow ACID properties?
+Ans => A transaction is a set of operations treated as a single unit. Following ACID ensures data remains accurate and reliable.
+
+
+9. What is the purpose of indexing in MySQL databases? How does it improve query performance?
+Ans => Indexing speeds up data retrieval by creating a reference to rows, reducing search time.
+
+
+
+10. What are the benefits of using foreign keys in relational databases? How do foreign keys help maintain data integrity?
+Ans => Foreign keys connect tables and enforce rules, ensuring related data stays consistent (like deleting an order when the customer is removed).
+
+
+
+11. Explain the concept of "data consistency" in relational databases. How does the ACID property of Consistency ensure data integrity?
+Ans => Data consistency means data remains correct after a transaction. ACID's consistency rule ensures constraints and rules are always followed.
+
+
+
+12. How can MySQL ensure that a CSV file is successfully imported using the LOAD DATA INFILE statement? Mention common errors that can occur and how to resolve them.
+Ans => Use the correct path and column mapping. Common errors include permission issues and incorrect file formats; fix them by checking file permissions and formatting.
