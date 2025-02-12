@@ -1,0 +1,52 @@
+
+----- Easy Level ------
+
+Q1 - What is a primary key in a database, and why is it important? Provide an example using the students table.
+Ans => A primary key uniquely identifies each record in a table, ensuring no duplicate or NULL values. Example: "id" in the students table.
+
+Q2 - What does the SELECT statement do in MySQL? Write a query to retrieve all records from the students table.
+Ans => The SELECT statement retrieves data from a database. Example: SELECT * FROM students;
+
+Q3 - How do you insert data into a table using MySQL? Insert a new student (id: 5, name: Emily, age: 21) into the students table.
+Ans => INSERT INTO students (id, name, age) VALUES (5, 'Emily', 21);
+
+Q4 - What is the purpose of a foreign key? Explain with respect to the orders table.
+Ans => A foreign key links two tables by referencing the primary key of another table. In the orders table, "customer_id" is a foreign key referencing "id" in students.
+
+Q5 - How can you delete a record from the students table where the id = 2?
+Ans => DELETE FROM students WHERE id = 2;
+
+Q6 - What is the difference between DELETE and TRUNCATE in SQL? Provide an example.
+Ans => DELETE removes specific records with a WHERE clause; TRUNCATE removes all records but keeps the table structure. Example: TRUNCATE TABLE students;
+
+Q7 - How can you update a student's age? Write a query to update Charlie’s age to 21 in the students table.
+Ans => UPDATE students SET age = 21 WHERE name = 'Charlie';
+
+
+
+--------- Medium Level --------
+
+Q1 - Why do we need tabular data instead of storing everything in a single file? Explain the benefits using the students and orders tables.
+Ans => Tabular data ensures data integrity, reduces redundancy, and improves efficiency. Example: Separating students and orders allows easy access to related data.
+
+Q2 - Understanding database relationships, how does the customer_id in the orders table relate to the id in the students table? Why is this important?
+Ans => "customer_id" in orders links to "id" in students, enabling relationship mapping. This ensures data consistency and facilitates queries across tables.
+
+Q3 - Write an SQL query to find all orders placed after January 12, 2025.
+Ans => SELECT * FROM orders WHERE order_date > '2025-01-12';
+
+Q4 - Write an SQL query to delete all records from the orders table where the order_status is "Cancelled".
+Ans => DELETE FROM orders WHERE order_status = 'Cancelled';
+
+
+
+
+
+------ Hard Level ------
+
+Q1 - Write an SQL query to find the total number of orders placed by each student, showing the results in ascending order of total orders.
+Ans => SELECT customer_id, COUNT(order_id) AS total_orders FROM orders GROUP BY customer_id ORDER BY total_orders ASC;
+
+Q2 - Write an SQL query to display all students who have not placed any orders.
+Ans => SELECT * FROM students WHERE id NOT IN (SELECT DISTINCT customer_id FROM orders);
+
