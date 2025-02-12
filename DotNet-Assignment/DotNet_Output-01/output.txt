@@ -1,0 +1,23 @@
+int x = 10;
+if (x = 5)
+Console.WriteLine("True");
+else
+Console.WriteLine("False");
+
+output = False
+
+
+
+int a = 10, b = 20, c = 30;
+if (a > b && a > c)
+Console.WriteLine("A is largest");
+else if (b > a && b > c)
+Console.WriteLine("B is largest");
+else
+Console.WriteLine("C is largest");
+
+output = C is largest
+
+
+
+
