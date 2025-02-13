@@ -1,0 +1,251 @@
+1. Sum of Array Elements
+
+public static int ArraySum(int[] arr) {
+    return arr.Sum();
+}
+
+
+
+
+2. Find the Missing Number
+
+public static int FindMissNumber(int[] arr, int n) {
+    int total = n * (n + 1) / 2;
+    int sum = arr.Sum();
+    return total - sum;
+}
+
+
+
+3. Reverse an Array in Place
+
+public static void ReverseArray(int[] arr) {
+    Array.Reverse(arr);
+}
+
+
+
+
+4. Find First Non-Repeating Character in a String
+
+public static char FirstUniqueChar(string str) {
+    return str.GroupBy(c => c).Where(g => g.Count() == 1).Select(g => g.Key).FirstOrDefault();
+}
+
+
+
+
+5. Find the Majority Element
+
+public static int MajorityElement(int[] arr) {
+    int count = 0, candidate = 0;
+    foreach (int num in arr) {
+        if (count == 0) candidate = num;
+        count += (num == candidate) ? 1 : -1;
+    }
+    return candidate;
+}
+
+
+
+
+6. Rotate an Array by K Positions
+
+public static void RotateArray(int[] arr, int k) {
+    k %= arr.Length;
+    Array.Reverse(arr);
+    Array.Reverse(arr, 0, k);
+    Array.Reverse(arr, k, arr.Length - k);
+}
+
+
+
+
+7. Find the Longest Consecutive Sequence
+
+public static int LongestConsecutive(int[] arr) {
+    HashSet<int> set = new HashSet<int>(arr);
+    int longest = 0;
+    foreach (int num in arr) {
+        if (!set.Contains(num - 1)) {
+            int currentNum = num;
+            int count = 1;
+            while (set.Contains(currentNum + 1)) {
+                currentNum++;
+                count++;
+            }
+            longest = Math.Max(longest, count);
+        }
+    }
+    return longest;
+}
+
+
+
+
+8. Find K-th Smallest Element in an Unsorted Array
+
+public static int KthSmallestElement(int[] arr, int k) {
+    Array.Sort(arr);
+    return arr[k - 1];
+}
+
+
+
+
+9. Find the Maximum Product of Three Numbers
+
+public static int MaxProductOfThree(int[] arr) {
+    Array.Sort(arr);
+    int n = arr.Length;
+    return Math.Max(arr[0] * arr[1] * arr[n - 1], arr[n - 1] * arr[n - 2] * arr[n - 3]);
+}
+
+
+
+
+10. Merge Two Sorted Arrays
+
+public static int[] MergeSortedArrays(int[] arr1, int[] arr2) {
+    return arr1.Concat(arr2).OrderBy(x => x).ToArray();
+}
+
+
+
+
+11. Find Pair with Given Sum in a Sorted Array
+
+public static int[] TwoSumSorted(int[] arr, int target) {
+    int left = 0, right = arr.Length - 1;
+    while (left < right) {
+        int sum = arr[left] + arr[right];
+        if (sum == target) return new int[] { left, right };
+        else if (sum < target) left++;
+        else right--;
+    }
+    return new int[] { -1, -1 };
+}
+
+
+
+
+12. Find the Peak Element in an Array
+
+public static int FindPeakElement(int[] arr) {
+    for (int i = 1; i < arr.Length - 1; i++) {
+        if (arr[i] > arr[i - 1] && arr[i] > arr[i + 1]) return arr[i];
+    }
+    return arr[0] > arr[^1] ? arr[0] : arr[^1];
+}
+
+
+
+
+13. Check If an Array is a Subset of Another
+
+public static bool IsSubset(int[] arr1, int[] arr2) {
+    return arr2.All(arr1.Contains);
+}
+
+
+
+
+14. Trapping Rain Water
+
+public static int TrapRainWater(int[] height) {
+    int left = 0, right = height.Length - 1, leftMax = 0, rightMax = 0, res = 0;
+    while (left < right) {
+        if (height[left] < height[right]) {
+            if (height[left] >= leftMax) leftMax = height[left];
+            else res += leftMax - height[left];
+            left++;
+        } else {
+            if (height[right] >= rightMax) rightMax = height[right];
+            else res += rightMax - height[right];
+            right--;
+        }
+    }
+    return res;
+}
+
+
+
+
+15. Find the Smallest Window in a String Containing All Characters of Another String
+
+public static string MinWindowSubstring(string s, string t) {
+    if (t.Length > s.Length) return "";
+    int[] map = new int[128];
+    foreach (char c in t) map[c]++;
+    int left = 0, minLen = int.MaxValue, minStart = 0, count = t.Length;
+    for (int right = 0; right < s.Length; right++) {
+        if (map[s[right]]-- > 0) count--;
+        while (count == 0) {
+            if (right - left + 1 < minLen) {
+                minLen = right - left + 1;
+                minStart = left;
+            }
+            if (++map[s[left++]] > 0) count++;
+        }
+    }
+    return minLen == int.MaxValue ? "" : s.Substring(minStart, minLen);
+}
+
+
+
+
+16. Find All Anagrams of a String in Another String
+
+public static List<int> FindAnagrams(string s, string t) {
+    List<int> result = new();
+    int[] count = new int[26];
+    foreach (char c in t) count[c - 'a']++;
+    for (int i = 0; i <= s.Length - t.Length; i++) {
+        int[] temp = new int[26];
+        foreach (char c in s.Substring(i, t.Length)) temp[c - 'a']++;
+        if (count.SequenceEqual(temp)) result.Add(i);
+    }
+    return result;
+}
+
+
+
+
+17. Find the K Closest Numbers to a Target
+
+public static int[] KClosestNumbers(int[] arr, int k, int x) {
+    return arr.OrderBy(num => Math.Abs(num - x)).Take(k).ToArray();
+}
+
+
+
+
+18. Find Duplicates in an Array
+
+public static List<int> FindDuplicates(int[] arr) {
+    return arr.GroupBy(x => x).Where(g => g.Count() > 1).Select(g => g.Key).ToList();
+}
+
+
+
+
+19. Find the Longest Palindromic Substring
+
+public static string LongestPalindrome(string s) {
+    return s.Length > 0 ? s.Reverse().ToString() : "";
+}
+
+
+
+
+20. Find the Median of Two Sorted Arrays
+
+public static double FindMedianSortedArrays(int[] nums1, int[] nums2) {
+    int[] merged = nums1.Concat(nums2).OrderBy(x => x).ToArray();
+    int n = merged.Length;
+    return n % 2 == 0 ? (merged[n/2] + merged[n/2 - 1]) / 2.0 : merged[n/2];
+}
+
+
+
+
