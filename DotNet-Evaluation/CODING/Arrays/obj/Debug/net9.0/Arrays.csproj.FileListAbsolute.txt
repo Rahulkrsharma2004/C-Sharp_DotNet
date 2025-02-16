@@ -1,0 +1,15 @@
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\bin\Debug\net9.0\Arrays.exe
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\bin\Debug\net9.0\Arrays.deps.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\bin\Debug\net9.0\Arrays.runtimeconfig.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\bin\Debug\net9.0\Arrays.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\bin\Debug\net9.0\Arrays.pdb
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\Arrays.AssemblyInfoInputs.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\Arrays.AssemblyInfo.cs
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\Arrays.csproj.CoreCompileInputs.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\Arrays.sourcelink.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\Arrays.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\refint\Arrays.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\Arrays.pdb
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\Arrays.genruntimeconfig.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Arrays\obj\Debug\net9.0\ref\Arrays.dll

@@ -1,0 +1,15 @@
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\Classes.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\Classes.AssemblyInfoInputs.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\Classes.AssemblyInfo.cs
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\Classes.csproj.CoreCompileInputs.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\Classes.sourcelink.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\bin\Debug\net9.0\Classes.exe
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\bin\Debug\net9.0\Classes.deps.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\bin\Debug\net9.0\Classes.runtimeconfig.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\bin\Debug\net9.0\Classes.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\bin\Debug\net9.0\Classes.pdb
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\Classes.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\refint\Classes.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\Classes.pdb
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\Classes.genruntimeconfig.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Classes\obj\Debug\net9.0\ref\Classes.dll

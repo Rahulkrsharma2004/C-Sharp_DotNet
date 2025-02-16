@@ -1,0 +1,15 @@
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\bin\Debug\net9.0\Inheritance.exe
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\bin\Debug\net9.0\Inheritance.deps.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\bin\Debug\net9.0\Inheritance.runtimeconfig.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\bin\Debug\net9.0\Inheritance.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\bin\Debug\net9.0\Inheritance.pdb
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\Inheritance.AssemblyInfoInputs.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\Inheritance.AssemblyInfo.cs
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\Inheritance.csproj.CoreCompileInputs.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\Inheritance.sourcelink.json
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\Inheritance.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\refint\Inheritance.dll
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\Inheritance.pdb
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\Inheritance.genruntimeconfig.cache
+D:\C-Sharp_DotNet\DotNet-Evaluation\CODING\Inheritance\obj\Debug\net9.0\ref\Inheritance.dll
