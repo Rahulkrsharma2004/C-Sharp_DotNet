@@ -1,0 +1,72 @@
+1. Which of the following is the correct syntax to define a class in C#?
+Ans => option A, `class MyClass { }`
+
+
+
+2. What is the default access modifier for members of a class in C#?
+Ans => option B, `private`
+
+
+
+3. Which of the following is true about constructors in C#?
+Ans => option B, A constructor can have the same name as the class.
+
+
+
+
+4. What is the result of the following code?
+
+class MyClass {
+    public int x = 5;
+}
+
+class Program {
+    static void Main() {
+        MyClass obj = new MyClass();
+        Console.WriteLine(obj.x);
+    }
+}
+
+Ans => option C, 5
+
+
+
+
+5. What is the purpose of the `this` keyword in C#?
+Ans => option B, It is used to access the instance members of the current object.
+
+
+
+6. Which of the following is an example of a property in a C# class?
+Ans => option B, `public int x { get; set; }`
+
+
+
+7. What will happen if you try to access a private member of a class from outside that class in C#?
+Ans => option A, Compilation error
+
+
+
+
+8. Which of the following statements is correct about the C#.NET code snippet given below?
+
+int i;
+int j = new int();
+i = j = ;
+String str;
+str = i.ToString();
+str = j.ToString();
+
+Ans => option B, Since `int` is a primitive, we cannot use `new` with it.
+
+
+
+
+9. Which of the following statements are correct about the `this` reference?
+Ans => option B, Static functions of a class never receive the `this` reference.
+
+
+
+10. Which of the following is the correct way to create an object of the `class Sample`?
+Ans => option A, `Sample s = new Sample();`
+
