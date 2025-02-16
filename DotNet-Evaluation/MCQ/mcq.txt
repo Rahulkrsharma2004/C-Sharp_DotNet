@@ -64,9 +64,11 @@ Ans => option B, Since `int` is a primitive, we cannot use `new` with it.
 
 9. Which of the following statements are correct about the `this` reference?
 Ans => option B, Static functions of a class never receive the `this` reference.
+       option C, Instance member functions of a class always receive a this reference.
+       option E, While calling an instance member function we are not required to pass the this reference explicitly.
 
 
 
 10. Which of the following is the correct way to create an object of the `class Sample`?
-Ans => option A, `Sample s = new Sample();`
+Ans => option A, Sample s = new Sample();
 
