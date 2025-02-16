@@ -1,0 +1,15 @@
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\Assignment-03.GeneratedMSBuildEditorConfig.editorconfig
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\Assignment-03.AssemblyInfoInputs.cache
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\Assignment-03.AssemblyInfo.cs
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\Assignment-03.csproj.CoreCompileInputs.cache
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\Assignment-03.sourcelink.json
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\bin\Debug\net9.0\Assignment-03.exe
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\bin\Debug\net9.0\Assignment-03.deps.json
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\bin\Debug\net9.0\Assignment-03.runtimeconfig.json
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\bin\Debug\net9.0\Assignment-03.dll
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\bin\Debug\net9.0\Assignment-03.pdb
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\Assignment-03.dll
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\refint\Assignment-03.dll
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\Assignment-03.pdb
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\Assignment-03.genruntimeconfig.cache
+D:\C-Sharp_DotNet\DotNet-Assignment\Assignment-03\obj\Debug\net9.0\ref\Assignment-03.dll
