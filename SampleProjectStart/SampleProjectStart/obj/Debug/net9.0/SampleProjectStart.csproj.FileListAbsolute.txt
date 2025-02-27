@@ -1,0 +1,14 @@
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\bin\Debug\net9.0\SampleProjectStart.exe
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\bin\Debug\net9.0\SampleProjectStart.deps.json
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\bin\Debug\net9.0\SampleProjectStart.runtimeconfig.json
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\bin\Debug\net9.0\SampleProjectStart.dll
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\bin\Debug\net9.0\SampleProjectStart.pdb
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\SampleProjectStart.GeneratedMSBuildEditorConfig.editorconfig
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\SampleProjectStart.AssemblyInfoInputs.cache
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\SampleProjectStart.AssemblyInfo.cs
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\SampleProjectStart.csproj.CoreCompileInputs.cache
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\SampleProjectStart.dll
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\refint\SampleProjectStart.dll
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\SampleProjectStart.pdb
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\SampleProjectStart.genruntimeconfig.cache
+D:\PPT-DOTNET\SampleProjectStart\SampleProjectStart\obj\Debug\net9.0\ref\SampleProjectStart.dll
